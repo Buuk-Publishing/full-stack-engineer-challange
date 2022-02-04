@@ -37,7 +37,7 @@ Implement an API using `Node/Express` with `Typescript` which handles the follwi
 - Authentication for the book REST endpoint
 
 ## Frontend Exercise
-Implement a basic Single Page Application (SPA) using `React` (either plain React or NextJs) wich does the follwing things:
+Implement a basic Single Page Application (SPA) using `React` with `Typescript (either plain React or NextJs) wich does the follwing things:
 1. It provides a login screen and handles authentication
 2. It displays all stored books on a dashboard (if authenticated)
 
