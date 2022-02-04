@@ -42,6 +42,7 @@ Implement a basic Single Page Application (SPA) using `React` with `Typescript` 
 2. It displays all stored books on a dashboard (if authenticated)
 
 - Please use React hooks
+- The application is fairly simple, so you don't have to use any state management libraries – in this case please make sure your state management is clean, simple and easy to test.
 - Write at least 1 test
 
 **Things you don’t have to worry about:**
