@@ -14,13 +14,23 @@ The `docker-compose.yml` file should define both the backend and frontend as ser
 - Secret Management
 
 ## Backend Exercise
-Implement an API using `Node/Express` with `Typescript` which handkes the follwing tasks:
-1. It accepts and handles JSON Payload containing book information
+Implement an API using `Node/Express` with `Typescript` which handles the follwing tasks:
+1. It accepts and handles JSON payload containing book information
 2. It accepts and handles user credentials for logging in
 3. It has an endpoint for retreiving all books (secured)
 
 - The received book should be stored in a database of your choice.
-- Write at least 1 Test
+- Write at least 1 test
+
+### Example Payload
+```json
+{
+  "isbn": "123456789",
+  "title": "I love coding",
+  "author" "John Doe",
+  "price": "14.99€"
+}
+```
 
 **Things you don't have to worry about**
 - CI configuration / Deployment
@@ -32,6 +42,7 @@ Implement a basic Single Page Application (SPA) using `React` (either plain Reac
 2. It displays all stored books on a dashboard (if authenticated)
 
 - Please use React hooks
+- Write at least 1 test
 
 **Things you don’t have to worry about:**
 - Making it super pretty: The UI should be clean and properly aligned however it does not need any extraneous CSS and/or animations. You can use any UI framework you like.
