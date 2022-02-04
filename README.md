@@ -22,12 +22,12 @@ Implement an API using `Node/Express` with `Typescript` which handles the follwi
 - The received book should be stored in a database of your choice.
 - Write at least 1 test
 
-### Example Payload
+#### Example Payload
 ```json
 {
   "isbn": "123456789",
   "title": "I love coding",
-  "author" "John Doe",
+  "author": "John Doe",
   "price": "14.99€"
 }
 ```
